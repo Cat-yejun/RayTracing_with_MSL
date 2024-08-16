@@ -1,6 +1,7 @@
 # HardWare Acceleration of RayTracing with MSL
 
 Based on the "Ray Tracing in One Weekend (Peter Shirley, Trevor David Black, Steve Hollasch)".
+
 HardWare Acceleration code using Apple's Metal API, written in MSL(Metal Shader Language)
 
 ## How to Compile and Run
