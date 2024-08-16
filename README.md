@@ -6,10 +6,6 @@ HardWare Acceleration code using Apple's Metal API, Compute Shader written in MS
 
 ## How to Compile and Run
 
-1. Go to directory : /src (via terminal)
-2. Compile the main.cpp file (c++11 compiler Recommended)
-3. run the execution file with the output file name : ex. ./main > output.ppm
-
-example : g++ -std=c++11 -I. main.cpp -o main && ./main > output.ppm
-
-then the output will be saved as a ppm file.
+1. use "make clean" to clean up the directory (if previously compiled)
+2. use "make" to compile the main.mm file
+3. use "./MyMetalProject" to execute it
